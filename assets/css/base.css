@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+}
+.grid{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.wide {
+    padding: 0 32px;
+    margin: 0 auto;
+}
+@keyframes FadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
